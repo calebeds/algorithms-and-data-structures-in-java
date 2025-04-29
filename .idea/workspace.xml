@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="" />
+    <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/IntegerReversion.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,18 +31,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AnagramProblem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListsExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseAnArray.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnagramProblem.executor": "Run",
+    "Application.ArrayExample.executor": "Run",
+    "Application.ArrayListsExample.executor": "Run",
+    "Application.IntegerReversion.executor": "Run",
+    "Application.PalindromeProblem.executor": "Run",
+    "Application.ReverseAnArray.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.PalindromeProblem">
+}]]></component>
+  <component name="RunManager" selected="Application.IntegerReversion">
     <configuration name="AnagramProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.AnagramProblem" />
       <module name="algorithms-and-data-structures" />
@@ -54,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ArrayExample" />
+    <configuration name="ArrayListsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArrayListsExample" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ArrayListsExample" />
+    <configuration name="IntegerReversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.IntegerReversion" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntegerReversion" />
         <item itemvalue="Application.PalindromeProblem" />
         <item itemvalue="Application.AnagramProblem" />
         <item itemvalue="Application.ReverseAnArray" />
         <item itemvalue="Application.ArrayListsExample" />
-        <item itemvalue="Application.ArrayExample" />
       </list>
     </recent_temporary>
   </component>
@@ -126,5 +130,20 @@
       <updated>1745793381053</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/IntegerReversion.java</url>
+          <line>16</line>
+          <properties class="arrays.IntegerReversion" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
