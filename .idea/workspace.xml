@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArraysAndLinkedListComparison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArraysAndLinkedListComparison">
+  <component name="RunManager" selected="Application.LinkedListTest">
     <configuration name="ArraysAndLinkedListComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArraysAndLinkedListComparison" />
       <module name="algorithms-and-data-structures" />
@@ -116,9 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.ArraysAndLinkedListComparison" />
         <item itemvalue="Application.DoublyLinkedListTest" />
-        <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.IntegerReversion" />
         <item itemvalue="Application.PalindromeProblem" />
       </list>

@@ -16,6 +16,19 @@ public class LinkedList<T extends Comparable<T>> implements List<T> {
         }
     }
 
+    //O(N)
+    public Node<T> getMiddleNode() {
+        Node<T> slow = this.root;
+        Node<T> fast = this.root;
+
+        while (fast.getNextNode() != null && fast.getNextNode().getNextNode() != null) {
+            slow = slow.getNextNode();
+            fast = fast.getNextNode().getNextNode();
+        }
+
+        return slow;
+    }
+
     // we just have to update the references O(1)
     private void insertBeginning(T data) {
         Node<T> newNode = new Node<>(data);

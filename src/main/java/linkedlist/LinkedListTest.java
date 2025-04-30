@@ -18,11 +18,10 @@ public class LinkedListTest {
         people.insert(new Person(23, "Adam"));
         people.insert(new Person(34, "Daniel"));
         people.insert(new Person(56, "Michael"));
+        people.insert(new Person(46, "Terry"));
 
-        people.traverse();
-        people.remove(new Person(34, "Daniel"));
-        System.out.println();
-        people.traverse();
+
+        System.out.println(people.getMiddleNode());
 
 
     }
