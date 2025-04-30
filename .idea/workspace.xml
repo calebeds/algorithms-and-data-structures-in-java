@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/doublylinkedlist/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/doublylinkedlist/DoublyLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/doublylinkedlist/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArraysAndLinkedListComparison.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +37,7 @@
     "Application.AnagramProblem.executor": "Run",
     "Application.ArrayExample.executor": "Run",
     "Application.ArrayListsExample.executor": "Run",
+    "Application.ArraysAndLinkedListComparison.executor": "Run",
     "Application.DoublyLinkedListTest.executor": "Run",
     "Application.IntegerReversion.executor": "Run",
     "Application.LinkedListTest.executor": "Run",
@@ -49,9 +48,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DoublyLinkedListTest">
-    <configuration name="AnagramProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.AnagramProblem" />
+  <component name="RunManager" selected="Application.ArraysAndLinkedListComparison">
+    <configuration name="ArraysAndLinkedListComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArraysAndLinkedListComparison" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
@@ -94,7 +93,7 @@
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraysAndLinkedListComparison" />
         <item itemvalue="Application.DoublyLinkedListTest" />
         <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.IntegerReversion" />
         <item itemvalue="Application.PalindromeProblem" />
-        <item itemvalue="Application.AnagramProblem" />
       </list>
     </recent_temporary>
   </component>
