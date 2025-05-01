@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stacks/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stacks/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stacks/StackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +45,13 @@
     "Application.LinkedListTest.executor": "Run",
     "Application.PalindromeProblem.executor": "Run",
     "Application.ReverseAnArray.executor": "Run",
+    "Application.StackTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LinkedListTest">
+  <component name="RunManager" selected="Application.StackTest">
     <configuration name="ArraysAndLinkedListComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArraysAndLinkedListComparison" />
       <module name="algorithms-and-data-structures" />
@@ -102,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.PalindromeProblem" />
+    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacks.StackTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.ArraysAndLinkedListComparison" />
         <item itemvalue="Application.DoublyLinkedListTest" />
         <item itemvalue="Application.IntegerReversion" />
-        <item itemvalue="Application.PalindromeProblem" />
       </list>
     </recent_temporary>
   </component>
