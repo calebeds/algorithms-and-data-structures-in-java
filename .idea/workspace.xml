@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stacks/StackInJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/queue/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/queue/QueueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,7 @@
     "Application.IntegerReversion.executor": "Run",
     "Application.LinkedListTest.executor": "Run",
     "Application.PalindromeProblem.executor": "Run",
+    "Application.QueueTest.executor": "Run",
     "Application.ReverseAnArray.executor": "Run",
     "Application.StackInJava.executor": "Run",
     "Application.StackTest.executor": "Debug",
@@ -51,9 +54,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StackInJava">
-    <configuration name="ArraysAndLinkedListComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ArraysAndLinkedListComparison" />
+  <component name="RunManager" selected="Application.QueueTest">
+    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedListTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
@@ -65,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedListTest" />
+    <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.QueueTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueTest" />
         <item itemvalue="Application.StackInJava" />
         <item itemvalue="Application.stacks.witharray.StackTest" />
         <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.LinkedListTest" />
-        <item itemvalue="Application.ArraysAndLinkedListComparison" />
       </list>
     </recent_temporary>
   </component>
