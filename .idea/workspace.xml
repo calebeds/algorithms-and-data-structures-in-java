@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stacks/MaxItemStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stacks/MaxItemStackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/queue/withstack/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/queue/withstack/QueueWithStackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
     "Application.PalindromeProblem.executor": "Run",
     "Application.QueueInJava.executor": "Run",
     "Application.QueueTest.executor": "Run",
+    "Application.QueueWithStackTest.executor": "Run",
     "Application.ReverseAnArray.executor": "Run",
     "Application.StackInJava.executor": "Run",
     "Application.StackTest.executor": "Debug",
@@ -61,7 +62,7 @@
       <recent name="queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxItemStackTest">
+  <component name="RunManager" selected="Application.QueueWithStackTest">
     <configuration name="ArrayDequeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queue.ArrayDequeExample" />
       <module name="algorithms-and-data-structures" />
@@ -114,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacks.StackInJava" />
+    <configuration name="QueueWithStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.withstack.QueueWithStackTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacks.*" />
+          <option name="PATTERN" value="queue.withstack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueWithStackTest" />
         <item itemvalue="Application.MaxItemStackTest" />
         <item itemvalue="Application.ArrayDequeExample" />
         <item itemvalue="Application.QueueInJava" />
         <item itemvalue="Application.QueueTest" />
-        <item itemvalue="Application.StackInJava" />
       </list>
     </recent_temporary>
   </component>
