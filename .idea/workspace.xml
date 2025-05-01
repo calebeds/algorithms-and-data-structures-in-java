@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/queue/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/queue/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/queue/QueueInJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/queue/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/queue/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/queue/withlinkedlist/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/queue/withlinkedlist/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/queue/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/queue/withlinkedlist/QueueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +47,7 @@
     "Application.IntegerReversion.executor": "Run",
     "Application.LinkedListTest.executor": "Run",
     "Application.PalindromeProblem.executor": "Run",
+    "Application.QueueInJava.executor": "Run",
     "Application.QueueTest.executor": "Run",
     "Application.ReverseAnArray.executor": "Run",
     "Application.StackInJava.executor": "Run",
@@ -54,13 +58,18 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.QueueTest">
-    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedListTest" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="queue" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.QueueInJava">
+    <configuration name="QueueInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.QueueInJava" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,7 +78,7 @@
       </method>
     </configuration>
     <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.QueueTest" />
+      <option name="MAIN_CLASS_NAME" value="queue.withlinkedlist.QueueTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueInJava" />
         <item itemvalue="Application.QueueTest" />
         <item itemvalue="Application.StackInJava" />
         <item itemvalue="Application.stacks.witharray.StackTest" />
         <item itemvalue="Application.StackTest" />
-        <item itemvalue="Application.LinkedListTest" />
       </list>
     </recent_temporary>
   </component>

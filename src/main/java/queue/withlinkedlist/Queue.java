@@ -1,4 +1,4 @@
-package queue;
+package queue.withlinkedlist;
 
 // implement the Queue ADT with linked list under the hood
 public class Queue<T extends Comparable<T>> {
