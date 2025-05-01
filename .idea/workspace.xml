@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stacks/witharray/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stacks/witharray/StackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stacks/StackInJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,7 @@
     "Application.LinkedListTest.executor": "Run",
     "Application.PalindromeProblem.executor": "Run",
     "Application.ReverseAnArray.executor": "Run",
+    "Application.StackInJava.executor": "Run",
     "Application.StackTest.executor": "Debug",
     "Application.stacks.witharray.StackTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -51,7 +51,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.stacks.witharray.StackTest">
+  <component name="RunManager" selected="Application.StackInJava">
     <configuration name="ArraysAndLinkedListComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArraysAndLinkedListComparison" />
       <module name="algorithms-and-data-structures" />
@@ -65,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doublylinkedlist.DoublyLinkedListTest" />
+    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedListTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="doublylinkedlist.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedListTest" />
+    <configuration name="StackInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacks.StackInJava" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackInJava" />
         <item itemvalue="Application.stacks.witharray.StackTest" />
         <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.ArraysAndLinkedListComparison" />
-        <item itemvalue="Application.DoublyLinkedListTest" />
       </list>
     </recent_temporary>
   </component>
