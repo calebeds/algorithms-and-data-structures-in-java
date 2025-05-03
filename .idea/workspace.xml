@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/queue/withstackrecursion/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/queue/withstackrecursion/QueueWithStackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/binarysearchtree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/binarysearchtree/BinarySearchTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/binarysearchtree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/binarysearchtree/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,7 @@
     "Application.ArrayExample.executor": "Run",
     "Application.ArrayListsExample.executor": "Run",
     "Application.ArraysAndLinkedListComparison.executor": "Run",
+    "Application.BinarySearchTreeTest.executor": "Run",
     "Application.DoublyLinkedListTest.executor": "Run",
     "Application.IntegerReversion.executor": "Run",
     "Application.LinkedListTest.executor": "Run",
@@ -68,7 +71,7 @@
       <recent name="queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.queue.withstackrecursion.QueueWithStackTest">
+  <component name="RunManager" selected="Application.BinarySearchTreeTest">
     <configuration name="ArrayDequeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queue.ArrayDequeExample" />
       <module name="algorithms-and-data-structures" />
@@ -82,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxItemStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacks.MaxItemStackTest" />
+    <configuration name="BinarySearchTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearchtree.BinarySearchTreeTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacks.*" />
+          <option name="PATTERN" value="binarysearchtree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.QueueInJava" />
+    <configuration name="MaxItemStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacks.MaxItemStackTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchTreeTest" />
         <item itemvalue="Application.queue.withstackrecursion.QueueWithStackTest" />
         <item itemvalue="Application.QueueWithStackTest" />
         <item itemvalue="Application.MaxItemStackTest" />
         <item itemvalue="Application.ArrayDequeExample" />
-        <item itemvalue="Application.QueueInJava" />
       </list>
     </recent_temporary>
   </component>
