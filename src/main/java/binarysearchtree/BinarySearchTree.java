@@ -47,16 +47,59 @@ public class BinarySearchTree<T extends Comparable<T>> implements Tree<T> {
 
     @Override
     public void traversal() {
+        // in-order traversal in O(N) linear running time
+        if(root == null) {
+            return;
+        }
 
+        traversal(root);
+    }
+
+    // O(N)
+    private void traversal(Node<T> node) {
+        if(node.getLeftChild() != null) {
+            traversal(node.getLeftChild());
+        }
+
+        System.out.print(node + "  ");
+
+        if(node.getRightChild() != null) {
+            traversal(node.getRightChild());
+        }
     }
 
     @Override
     public T getMin() {
-        return null;
+        if(root == null) {
+            return null;
+        }
+
+        return getMin(root);
+    }
+
+    private T getMin(Node<T> node) {
+        if(node.getLeftChild() != null) {
+            return getMin(node.getLeftChild());
+        } else {
+            return node.getData();
+        }
     }
 
     @Override
     public T getMax() {
-        return null;
+        if(root == null) {
+            return null;
+        }
+
+        //the max item is the rightmost item the tree
+        return getMax(root);
+    }
+
+    private T getMax(Node<T> node) {
+        if(node.getRightChild() != null) {
+            return getMax(node.getRightChild());
+        } else {
+            return node.getData();
+        }
     }
 }
