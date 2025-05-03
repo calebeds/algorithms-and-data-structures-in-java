@@ -11,9 +11,7 @@ public class BinarySearchTreeTest {
         bst.insert(16);
         bst.insert(-1);
 
-        System.out.println(bst.getMin());
-        System.out.println(bst.getMax());
-
+        bst.remove(14);
         bst.traversal();
     }
 }

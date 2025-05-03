@@ -42,7 +42,110 @@ public class BinarySearchTree<T extends Comparable<T>> implements Tree<T> {
 
     @Override
     public void remove(T data) {
+        if(root == null) {
+            return;
+        }
 
+        remove(data, root);
+    }
+
+    private void remove(T data, Node<T> node) {
+        if(node == null) {
+            return;
+        }
+
+        // first we have to search for the item we want to remove
+        if(data.compareTo(node.getData()) < 0) {
+            remove(data, node.getLeftChild());
+        } else if(data.compareTo(node.getData()) > 0) {
+            remove(data, node.getRightChild());
+        } else {
+            // WE HAVE FOUND THE ITEM WE WANT TO REMOVE!!!
+
+            // if the node is a leaf node (without left and right children
+            // THIS IS THE CASE 1
+            if(node.getLeftChild() == null && node.getRightChild() == null) {
+                // whether the node is a left child or right child of his parent
+                Node<T> parent = node.getParentNode();
+
+                // the node is left
+                if(parent != null && parent.getLeftChild() == node) {
+                    parent.setLeftChild(null);
+                    // the node is a right child
+                } else if(parent != null && parent.getRightChild() == node) {
+                    parent.setRightChild(null);
+                } else {
+                    // maybe the root is the one to remove
+                    if(parent == null) {
+                        root = null;
+                    }
+
+                    // remove the node and makes it eligible for GC
+                    node = null;
+                }
+                // CASE 2) when we remove items with a single child
+                // a single right child
+            } else if(node.getLeftChild() == null && node.getRightChild() != null) {
+                Node<T> parent = node.getParentNode();
+
+                if(parent != null && parent.getLeftChild() == node) {
+                    parent.setLeftChild(node.getRightChild());
+                    // the node is a right child
+                } else if(parent != null && parent.getRightChild() == node) {
+                    parent.setRightChild(node.getRightChild());
+                }
+
+                // when we deal with the root node
+                if(parent == null) {
+                    root = node.getRightChild();
+                }
+
+                // we have to update the right child's parent
+                node.getRightChild().setParentNode(parent);
+                node = null;
+            }
+            // it is approximately the same CASE 2) BUT we have to deal with left child
+            else if(node.getLeftChild() != null && node.getRightChild() == null) {
+                Node<T> parent = node.getParentNode();
+
+                if(parent != null && parent.getLeftChild() == node) {
+                    parent.setLeftChild(node.getLeftChild());
+                    // the node is a right child
+                } else if(parent != null && parent.getRightChild() == node) {
+                    parent.setRightChild(node.getLeftChild());
+                }
+
+                // when we deal with the root node
+                if(parent == null) {
+                    root = node.getLeftChild();
+                }
+
+                // we have to update the right child's parent
+                node.getLeftChild().setParentNode(parent);
+                node = null;
+            }
+
+            // remove 2 children
+            else {
+                // find the predecessor (max item in the left subtree)
+                Node<T> predecessor = getPredecessor(node.getLeftChild());
+
+                // swap just the values
+                T temp = predecessor.getData();
+                predecessor.setData(node.getData());
+                node.setData(temp);
+
+                // we have to call the remove method recursively on the predecessor
+                remove(data, predecessor);
+            }
+        }
+    }
+
+    private Node<T> getPredecessor(Node<T> node) {
+        if(node.getRightChild() != null) {
+            return getPredecessor(node.getRightChild());
+        }
+        return node;
     }
 
     @Override
