@@ -5,6 +5,11 @@ public class BinarySearchTree<T extends Comparable<T>> implements Tree<T> {
     private Node<T> root;
 
     @Override
+    public Node<T> getRoot() {
+        return root;
+    }
+
+    @Override
     public void insert(T data) {
         // this is when we insert the first node into the BST (parent is null)
         if(root == null) {
