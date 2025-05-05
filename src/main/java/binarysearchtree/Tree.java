@@ -9,5 +9,5 @@ public interface Tree<T> {
     void traversal();
     T getMin();
     T getMax();
-
+    int getAgesSum();
 }

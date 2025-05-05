@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/binarysearchtree/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/binarysearchtree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/binarysearchtree/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/binarysearchtree/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/binarysearchtree/BinarySearchTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/binarysearchtree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/binarysearchtree/Tree.java" afterDir="false" />
