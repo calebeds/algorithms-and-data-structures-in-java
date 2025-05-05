@@ -19,6 +19,7 @@ public class BinarySearchTreeTest {
         System.out.println();
 
         compareTwoTrees();
+        kthSmallestElement();
     }
 
     public static void compareTwoTrees() {
@@ -37,5 +38,20 @@ public class BinarySearchTreeTest {
         bst2.insert(1);
 
         System.out.println(isTreeSame(bst1.getRoot(), bst2.getRoot()));
+    }
+
+    public static void kthSmallestElement() {
+        BinarySearchTree<Integer> bst = new BinarySearchTree<>();
+
+        bst.insert(10);
+        bst.insert(5);
+        bst.insert(15);
+        bst.insert(14);
+        bst.insert(16);
+        bst.insert(-1);
+
+        bst.remove(14);
+
+        System.out.println(bst.getKSmallest(bst.getRoot(), 2));
     }
 }
