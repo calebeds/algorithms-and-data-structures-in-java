@@ -183,6 +183,43 @@ public class AvlTree<T extends Comparable<T>> implements Tree<T> {
         }
     }
 
+    private void settleViolations(Node<T> node) {
+        // we have to check up to the root node O(logN)
+        while (node != null) {
+            updateHeight(node);
+            settleViolationsHelper(node);
+            node = node.getParentNode();
+        }
+    }
+
+    private void settleViolationsHelper(Node<T> node) {
+        int balance = getBalance(node);
+
+        // OK, we know the is LEFT HEAVY BUT it can be left-right heavy or left-left heavy
+        if(balance > 1) {
+            // left right heavy situation: left rotation
+            if(getBalance(node.getLeftChild()) < 0) {
+                leftRotation(node.getLeftChild());
+            }
+
+            // doubly left heavy situation then just a single right rotation is needed
+            // this is the right rotation
+            rightRotation(node);
+        }
+
+        // OK, we know the is RIGHT HEAVY BUT it can be right-right heavy or right-left heavy
+        if(balance < -1) {
+            // right left heavy situation: right rotation
+            if(getBalance(node.getRightChild()) > 0) {
+                rightRotation(node.getRightChild());
+            }
+
+            // doubly right heavy situation then just a single right rotation is needed
+            // this is the left rotation
+            leftRotation(node);
+        }
+    }
+
     // it can be done in O(1)
     private void rightRotation(Node<T> node) {
         // this is  the new root node after rotation (node B)
