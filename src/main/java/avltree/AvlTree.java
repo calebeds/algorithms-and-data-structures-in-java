@@ -42,6 +42,7 @@ public class AvlTree<T extends Comparable<T>> implements Tree<T> {
 
         updateHeight(node);
         // settle the violation
+        settleViolations(node);
 
     }
 
@@ -89,6 +90,7 @@ public class AvlTree<T extends Comparable<T>> implements Tree<T> {
                     node = null;
 
                     updateHeight(parent);
+                    settleViolations(parent);
                 }
                 // CASE 2) when we remove items with a single child
                 // a single right child
@@ -111,6 +113,7 @@ public class AvlTree<T extends Comparable<T>> implements Tree<T> {
                 node.getRightChild().setParentNode(parent);
                 node = null;
                 updateHeight(parent);
+                settleViolations(parent);
             }
             // it is approximately the same CASE 2) BUT we have to deal with left child
             else if(node.getLeftChild() != null && node.getRightChild() == null) {
@@ -132,7 +135,7 @@ public class AvlTree<T extends Comparable<T>> implements Tree<T> {
                 node.getLeftChild().setParentNode(parent);
                 node = null;
                 updateHeight(parent);
-
+                settleViolations(parent);
             }
 
             // remove 2 children
@@ -222,6 +225,7 @@ public class AvlTree<T extends Comparable<T>> implements Tree<T> {
 
     // it can be done in O(1)
     private void rightRotation(Node<T> node) {
+        System.out.println("Rotating right on node: " + node);
         // this is  the new root node after rotation (node B)
         Node<T> tempLeftChild = node.getLeftChild();
         // Node C
@@ -263,6 +267,8 @@ public class AvlTree<T extends Comparable<T>> implements Tree<T> {
     }
 
     private void leftRotation(Node<T> node) {
+        System.out.println("Rotating left on node: " + node);
+
         // this is  the new root node after rotation (node B)
         Node<T> tempRightChild = node.getRightChild();
         // Node C

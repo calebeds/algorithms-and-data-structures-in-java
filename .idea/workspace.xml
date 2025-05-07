@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/avltree/AvlTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/avltree/AvlTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/avltree/AvlTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/avltree/AvlTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,7 @@
     "Application.ArrayExample.executor": "Run",
     "Application.ArrayListsExample.executor": "Run",
     "Application.ArraysAndLinkedListComparison.executor": "Run",
+    "Application.AvlTreeTest.executor": "Run",
     "Application.BinarySearchTreeTest.executor": "Run",
     "Application.DoublyLinkedListTest.executor": "Run",
     "Application.IntegerReversion.executor": "Run",
@@ -68,13 +70,13 @@
       <recent name="queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTreeTest">
-    <configuration name="ArrayDequeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.ArrayDequeExample" />
+  <component name="RunManager" selected="Application.AvlTreeTest">
+    <configuration name="AvlTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="avltree.AvlTreeTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="avltree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AvlTreeTest" />
         <item itemvalue="Application.BinarySearchTreeTest" />
         <item itemvalue="Application.queue.withstackrecursion.QueueWithStackTest" />
         <item itemvalue="Application.QueueWithStackTest" />
         <item itemvalue="Application.MaxItemStackTest" />
-        <item itemvalue="Application.ArrayDequeExample" />
       </list>
     </recent_temporary>
   </component>
