@@ -8,6 +8,7 @@ public class RedBlackTree<T extends Comparable<T>> implements Tree<T> {
         // this is when we insert the first node into the BST (parent is null)
         if(root == null) {
             this.root = new Node<>(data, null);
+            settleViolations(root);
         } else {
             // there are already item in the BST
             insert(data, root);
@@ -156,11 +157,13 @@ public class RedBlackTree<T extends Comparable<T>> implements Tree<T> {
 
     // takes at most O(logN)
     private void settleViolations(Node<T> node) {
-        Node<T> parentNode = node.getParentNode();
-        Node<T> grandParentNode = node.getParentNode().getParentNode();
+        Node<T> parentNode;
+        Node<T> grandParentNode;
 
         // we have to check the violations up to the root node
         while (node != root && isRed(node) && isRed(node.getParentNode())) {
+            parentNode = node.getParentNode();
+            grandParentNode = node.getParentNode().getParentNode();
             // parent it's left child of it's parent (so the grandparent)
             if(parentNode == grandParentNode.getLeftChild()) {
                 Node<T> uncle = grandParentNode.getRightChild();

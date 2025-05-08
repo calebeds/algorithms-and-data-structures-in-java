@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/avltree/AvlTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/avltree/AvlTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/avltree/AvlTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/avltree/AvlTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/redblacktree/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redblacktree/RedBlackTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/redblacktree/RedBlackTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redblacktree/RedBlackTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,7 @@
     "Application.QueueInJava.executor": "Run",
     "Application.QueueTest.executor": "Run",
     "Application.QueueWithStackTest.executor": "Run",
+    "Application.RedBlackTreeTest.executor": "Run",
     "Application.ReverseAnArray.executor": "Run",
     "Application.StackInJava.executor": "Run",
     "Application.StackTest.executor": "Debug",
@@ -70,7 +71,7 @@
       <recent name="queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AvlTreeTest">
+  <component name="RunManager" selected="Application.RedBlackTreeTest">
     <configuration name="AvlTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="avltree.AvlTreeTest" />
       <module name="algorithms-and-data-structures" />
@@ -97,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxItemStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacks.MaxItemStackTest" />
+    <configuration name="QueueWithStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.withstack.QueueWithStackTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacks.*" />
+          <option name="PATTERN" value="queue.withstack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueWithStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.withstack.QueueWithStackTest" />
+    <configuration name="RedBlackTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="redblacktree.RedBlackTreeTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.withstack.*" />
+          <option name="PATTERN" value="redblacktree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RedBlackTreeTest" />
         <item itemvalue="Application.AvlTreeTest" />
         <item itemvalue="Application.BinarySearchTreeTest" />
         <item itemvalue="Application.queue.withstackrecursion.QueueWithStackTest" />
         <item itemvalue="Application.QueueWithStackTest" />
-        <item itemvalue="Application.MaxItemStackTest" />
       </list>
     </recent_temporary>
   </component>
