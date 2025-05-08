@@ -25,7 +25,10 @@ public class RedBlackTree<T extends Comparable<T>> implements Tree<T> {
                 insert(data, node.getLeftChild());
             } // the left child is a NULL so we create a left child
             else {
-                node.setLeftChild(new Node<>(data, node));
+                Node<T> newNode = new Node<>(data, node);
+                node.setLeftChild(newNode);
+                // WE HAVE TO CHECK whether the red black properties are violated or not
+                settleViolations(newNode);
             }
             // this is the case when the data is GREATER than the value in the node
             // GO TO THE RIGHT SUBTREE
@@ -35,11 +38,12 @@ public class RedBlackTree<T extends Comparable<T>> implements Tree<T> {
                 insert(data, node.getRightChild());
             } // the right child is a NULL so we create a left child
             else {
-                node.setRightChild(new Node<>(data, node));
+                Node<T> newNode = new Node<>(data, node);
+                node.setRightChild(newNode);
+                // WE HAVE TO CHECK whether the red black properties are violated or not
+                settleViolations(newNode);
             }
         }
-
-        // WE HAVE TO CHECK whether the red black properties are violated or not
     }
 
     @Override
@@ -148,6 +152,79 @@ public class RedBlackTree<T extends Comparable<T>> implements Tree<T> {
             return getPredecessor(node.getRightChild());
         }
         return node;
+    }
+
+    // takes at most O(logN)
+    private void settleViolations(Node<T> node) {
+        Node<T> parentNode = node.getParentNode();
+        Node<T> grandParentNode = node.getParentNode().getParentNode();
+
+        // we have to check the violations up to the root node
+        while (node != root && isRed(node) && isRed(node.getParentNode())) {
+            // parent it's left child of it's parent (so the grandparent)
+            if(parentNode == grandParentNode.getLeftChild()) {
+                Node<T> uncle = grandParentNode.getRightChild();
+
+                // case 1.) and case 4.) RECOLORING
+                if(uncle != null && isRed(uncle)) {
+                    grandParentNode.setColor(NodeColor.RED);
+                    parentNode.setColor(NodeColor.BLACK);
+                    uncle.setColor(NodeColor.BLACK);
+                    node = grandParentNode;
+                } else {
+                    // case 2.)
+                    if(node == parentNode.getRightChild()) {
+                        leftRotation(parentNode);
+                        // update the references we keep going up to the root node
+                        node = parentNode;
+                        parentNode = grandParentNode;
+                    }
+
+                    // case 3.) rotation on the grandparent + parent and grandparent switch color
+                    rightRotation(grandParentNode);
+                    System.out.printf("Recoloring %s and %s %n", parentNode, grandParentNode);
+                    // swap the color of the parent and the grandparent
+                    NodeColor tempColor = parentNode.getColor();
+                    parentNode.setColor(grandParentNode.getColor());
+                    grandParentNode.setColor(tempColor);
+                    // update the references because we keep going to the root node
+                    node = parentNode;
+                }
+            } else {
+                // parent is a right child of it's parent (so the grandparent)
+                Node<T> uncle = grandParentNode.getLeftChild();
+
+                // case 1.) and case 4.) symmetric partner
+                if(uncle != null && isRed(uncle)) {
+                    // parent it's left child of it's parent (so the grandparent)
+                    grandParentNode.setColor(NodeColor.RED);
+                    parentNode.setColor(NodeColor.BLACK);
+                    uncle.setColor(NodeColor.BLACK);
+                    node = grandParentNode;
+                } else {
+                    // case 2.) symmetric partner
+                    if(node == parentNode.getLeftChild()) {
+                        rightRotation(parentNode);
+                        node = parentNode;
+                        parentNode = grandParentNode;
+                    }
+
+                    // case 3.)
+                    leftRotation(grandParentNode);
+                    System.out.printf("Recoloring %s and %s %n", parentNode, grandParentNode);
+                    NodeColor tempColor = parentNode.getColor();
+                    parentNode.setColor(grandParentNode.getColor());
+                    grandParentNode.setColor(tempColor);
+                    node = parentNode;
+                }
+            }
+        }
+
+        // root node can not be RED so we have to recolor if necessary
+        if(isRed(root)) {
+            System.out.println("Recoloring the root node to black");
+            root.setColor(NodeColor.BLACK);
+        }
     }
 
     private boolean isRed(Node<T> node) {
