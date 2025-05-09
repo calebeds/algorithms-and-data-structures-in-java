@@ -79,10 +79,10 @@ public class SplayTree<T extends Comparable<T>> implements Tree<T> {
             if(node.getParentNode().getParentNode() == null) {
                 // if the node is the left child of root then RIGHT ROTATE on the root
                 if(node.getParentNode().getLeftChild() == node) {
-                    rightRotation(node);
+                    rightRotation(node.getParentNode());
                 // if the node is the right child of root then RIGHT ROTATE on the root
                 } else {
-                    leftRotation(node);
+                    leftRotation(node.getParentNode());
                 }
             // ZIG-ZIG SITUATION
             } else if(node.getParentNode().getLeftChild() == node
