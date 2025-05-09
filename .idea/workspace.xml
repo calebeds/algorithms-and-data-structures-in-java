@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/redblacktree/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redblacktree/RedBlackTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redblacktree/RedBlackTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redblacktree/RedBlackTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splaytree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splaytree/SplayTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splaytree/SplayTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splaytree/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,7 @@
       <recent name="queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RedBlackTreeTest">
+  <component name="RunManager" selected="Application.SplayTreeTest">
     <configuration name="AvlTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="avltree.AvlTreeTest" />
       <module name="algorithms-and-data-structures" />
@@ -98,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueWithStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.withstack.QueueWithStackTest" />
+    <configuration name="RedBlackTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="redblacktree.RedBlackTreeTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.withstack.*" />
+          <option name="PATTERN" value="redblacktree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedBlackTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="redblacktree.RedBlackTreeTest" />
+    <configuration name="SplayTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="splaytree.SplayTreeTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="redblacktree.*" />
+          <option name="PATTERN" value="splaytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SplayTreeTest" />
         <item itemvalue="Application.RedBlackTreeTest" />
         <item itemvalue="Application.AvlTreeTest" />
         <item itemvalue="Application.BinarySearchTreeTest" />
         <item itemvalue="Application.queue.withstackrecursion.QueueWithStackTest" />
-        <item itemvalue="Application.QueueWithStackTest" />
       </list>
     </recent_temporary>
   </component>
