@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/splaytree/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/splaytree/SplayTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/splaytree/SplayTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/splaytree/Tree.java" afterDir="false" />
-    </list>
+    <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +49,7 @@
     "Application.QueueWithStackTest.executor": "Run",
     "Application.RedBlackTreeTest.executor": "Run",
     "Application.ReverseAnArray.executor": "Run",
+    "Application.SplayTreeTest.executor": "Run",
     "Application.StackInJava.executor": "Run",
     "Application.StackTest.executor": "Debug",
     "Application.queue.withstackrecursion.QueueWithStackTest.executor": "Run",
