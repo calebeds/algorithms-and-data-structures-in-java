@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/priorityqueue/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/priorityqueue/PriorityQueueExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/heaps/CheckHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/heaps/CheckMinHeapExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,7 @@
     "Application.ArraysAndLinkedListComparison.executor": "Run",
     "Application.AvlTreeTest.executor": "Run",
     "Application.BinarySearchTreeTest.executor": "Run",
+    "Application.CheckMinHeapExample.executor": "Run",
     "Application.DoublyLinkedListTest.executor": "Run",
     "Application.HeapTest.executor": "Run",
     "Application.IntegerReversion.executor": "Run",
@@ -75,13 +75,13 @@
       <recent name="queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PriorityQueueExample">
-    <configuration name="AvlTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="avltree.AvlTreeTest" />
+  <component name="RunManager" selected="Application.CheckMinHeapExample">
+    <configuration name="CheckMinHeapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heaps.CheckMinHeapExample" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="avltree.*" />
+          <option name="PATTERN" value="heaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckMinHeapExample" />
         <item itemvalue="Application.PriorityQueueExample" />
         <item itemvalue="Application.HeapTest" />
         <item itemvalue="Application.SplayTreeTest" />
         <item itemvalue="Application.RedBlackTreeTest" />
-        <item itemvalue="Application.AvlTreeTest" />
       </list>
     </recent_temporary>
   </component>
