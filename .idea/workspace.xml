@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/heaps/HeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/heaps/HeapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/priorityqueue/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/priorityqueue/PriorityQueueExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,7 @@
     "Application.LinkedListTest.executor": "Run",
     "Application.MaxItemStackTest.executor": "Run",
     "Application.PalindromeProblem.executor": "Run",
+    "Application.PriorityQueueExample.executor": "Run",
     "Application.QueueInJava.executor": "Run",
     "Application.QueueTest.executor": "Run",
     "Application.QueueWithStackTest.executor": "Run",
@@ -72,7 +75,7 @@
       <recent name="queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HeapTest">
+  <component name="RunManager" selected="Application.PriorityQueueExample">
     <configuration name="AvlTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="avltree.AvlTreeTest" />
       <module name="algorithms-and-data-structures" />
@@ -86,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysearchtree.BinarySearchTreeTest" />
+    <configuration name="HeapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heaps.HeapTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binarysearchtree.*" />
+          <option name="PATTERN" value="heaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heaps.HeapTest" />
+    <configuration name="PriorityQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="priorityqueue.PriorityQueueExample" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heaps.*" />
+          <option name="PATTERN" value="priorityqueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PriorityQueueExample" />
         <item itemvalue="Application.HeapTest" />
         <item itemvalue="Application.SplayTreeTest" />
         <item itemvalue="Application.RedBlackTreeTest" />
         <item itemvalue="Application.AvlTreeTest" />
-        <item itemvalue="Application.BinarySearchTreeTest" />
       </list>
     </recent_temporary>
   </component>
