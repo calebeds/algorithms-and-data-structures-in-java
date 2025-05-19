@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/heaps/CheckHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/heaps/CheckMinHeapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashtable/HashItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashtable/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashtable/HashTableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,7 @@
     "Application.BinarySearchTreeTest.executor": "Run",
     "Application.CheckMinHeapExample.executor": "Run",
     "Application.DoublyLinkedListTest.executor": "Run",
+    "Application.HashTableTest.executor": "Run",
     "Application.HeapTest.executor": "Run",
     "Application.IntegerReversion.executor": "Run",
     "Application.LinkedListTest.executor": "Run",
@@ -75,13 +78,26 @@
       <recent name="queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckMinHeapExample">
+  <component name="RunManager" selected="Application.HashTableTest">
     <configuration name="CheckMinHeapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heaps.CheckMinHeapExample" />
+      <option name="MAIN_CLASS_NAME" value="heaps.checkminheap.CheckMinHeapExample" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heaps.*" />
+          <option name="PATTERN" value="heaps.checkminheap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtable.HashTableTest" />
+      <module name="algorithms-and-data-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,7 +110,7 @@
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heaps.*" />
+          <option name="PATTERN" value="heaps.checkminheap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,19 +124,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="priorityqueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedBlackTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="redblacktree.RedBlackTreeTest" />
-      <module name="algorithms-and-data-structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="redblacktree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashTableTest" />
         <item itemvalue="Application.CheckMinHeapExample" />
         <item itemvalue="Application.PriorityQueueExample" />
         <item itemvalue="Application.HeapTest" />
         <item itemvalue="Application.SplayTreeTest" />
-        <item itemvalue="Application.RedBlackTreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,5 +164,25 @@
       <updated>1745793381053</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/hashtable/HashTableTest.java</url>
+          <line>3</line>
+          <properties class="hashtable.HashTableTest" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hashtable/HashTableTest.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
