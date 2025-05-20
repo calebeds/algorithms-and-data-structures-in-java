@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hashtable/generichashmap/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hashtable/generichashmap/HashTableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hashtable/generichashmap/HashMap.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashtable/java/HashMapInJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,7 @@
     "Application.BinarySearchTreeTest.executor": "Run",
     "Application.CheckMinHeapExample.executor": "Run",
     "Application.DoublyLinkedListTest.executor": "Run",
+    "Application.HashMapInJava.executor": "Run",
     "Application.HashTableTest.executor": "Run",
     "Application.HeapTest.executor": "Run",
     "Application.IntegerReversion.executor": "Run",
@@ -82,7 +82,7 @@
       <recent name="hashtable.withlinearprobing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hashtable.generichashmap.HashTableTest">
+  <component name="RunManager" selected="Application.HashMapInJava">
     <configuration name="CheckMinHeapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="heaps.checkminheap.CheckMinHeapExample" />
       <module name="algorithms-and-data-structures" />
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashtable.withchaining.HashTableTest" />
+    <configuration name="HashMapInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtable.java.HashMapInJava" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashtable.withchaining.*" />
+          <option name="PATTERN" value="hashtable.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="priorityqueue.PriorityQueueExample" />
+    <configuration name="HashTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtable.withchaining.HashTableTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="priorityqueue.*" />
+          <option name="PATTERN" value="hashtable.withchaining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapInJava" />
         <item itemvalue="Application.hashtable.generichashmap.HashTableTest" />
         <item itemvalue="Application.hashtable.withlinearprobing.HashTableTest" />
         <item itemvalue="Application.HashTableTest" />
         <item itemvalue="Application.CheckMinHeapExample" />
-        <item itemvalue="Application.PriorityQueueExample" />
       </list>
     </recent_temporary>
   </component>
