@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hashtable/withlinearprobing/HashItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hashtable/withlinearprobing/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hashtable/withlinearprobing/HashTableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashtable/generichashmap/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashtable/generichashmap/HashTableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hashtable/generichashmap/HashMap.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,7 @@
     "Application.SplayTreeTest.executor": "Run",
     "Application.StackInJava.executor": "Run",
     "Application.StackTest.executor": "Debug",
+    "Application.hashtable.generichashmap.HashTableTest.executor": "Run",
     "Application.hashtable.withlinearprobing.HashTableTest.executor": "Run",
     "Application.queue.withstackrecursion.QueueWithStackTest.executor": "Run",
     "Application.stacks.witharray.StackTest.executor": "Run",
@@ -81,7 +82,7 @@
       <recent name="hashtable.withlinearprobing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hashtable.withlinearprobing.HashTableTest">
+  <component name="RunManager" selected="Application.hashtable.generichashmap.HashTableTest">
     <configuration name="CheckMinHeapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="heaps.checkminheap.CheckMinHeapExample" />
       <module name="algorithms-and-data-structures" />
@@ -108,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heaps.HeapTest" />
+    <configuration name="PriorityQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="priorityqueue.PriorityQueueExample" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heaps.checkminheap.*" />
+          <option name="PATTERN" value="priorityqueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="priorityqueue.PriorityQueueExample" />
+    <configuration name="hashtable.generichashmap.HashTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtable.generichashmap.HashTableTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="priorityqueue.*" />
+          <option name="PATTERN" value="hashtable.generichashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hashtable.generichashmap.HashTableTest" />
         <item itemvalue="Application.hashtable.withlinearprobing.HashTableTest" />
         <item itemvalue="Application.HashTableTest" />
         <item itemvalue="Application.CheckMinHeapExample" />
         <item itemvalue="Application.PriorityQueueExample" />
-        <item itemvalue="Application.HeapTest" />
       </list>
     </recent_temporary>
   </component>
