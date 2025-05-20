@@ -40,7 +40,8 @@ public class BogoSort {
     private void swap(int i, int j) {
         int temp = nums[i];
         nums[i] = nums[j];
-        nums[j] = temp;    }
+        nums[j] = temp;
+    }
 
     private boolean isSorted() {
         // if the next item i + 1 is smaller than the previous one
