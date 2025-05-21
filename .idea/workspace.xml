@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bubblesort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bubblesort/BubbleSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bogosort/BogoSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bogosort/BogoSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selectionsort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selectionsort/SelectionSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,7 @@
     "Application.QueueWithStackTest.executor": "Run",
     "Application.RedBlackTreeTest.executor": "Run",
     "Application.ReverseAnArray.executor": "Run",
+    "Application.SelectionSortTest.executor": "Run",
     "Application.SplayTreeTest.executor": "Run",
     "Application.StackInJava.executor": "Run",
     "Application.StackTest.executor": "Debug",
@@ -87,7 +88,7 @@
       <recent name="hashtable.withlinearprobing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSortTest">
+  <component name="RunManager" selected="Application.SelectionSortTest">
     <configuration name="BogoSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bogosort.BogoSortTest" />
       <module name="algorithms-and-data-structures" />
@@ -114,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashtable.java.HashMapInJava" />
+    <configuration name="SelectionSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selectionsort.SelectionSortTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashtable.java.*" />
+          <option name="PATTERN" value="selectionsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSortTest" />
         <item itemvalue="Application.BubbleSortTest" />
         <item itemvalue="Application.BogoSortTest" />
         <item itemvalue="Application.hashtable.twosumproblem.TwoSumProblemTest" />
         <item itemvalue="Application.TwoSumProblemTest" />
-        <item itemvalue="Application.HashMapInJava" />
       </list>
     </recent_temporary>
   </component>
