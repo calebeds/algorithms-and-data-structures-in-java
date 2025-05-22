@@ -15,7 +15,7 @@ public class ShellSort {
             for (int i = gap; i < nums.length; i++) {
                 int j = i;
                 // insertion sort makes lots of shifts
-                while (j > gap && nums[j - gap] > nums[j]) {
+                while (j >= gap && nums[j - gap] > nums[j]) {
                     swap(j, j - gap);
                     j-=gap;
                 }

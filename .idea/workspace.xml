@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/shellsort/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shellsort/ShellSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shellsort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shellsort/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shellsort/ShellSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shellsort/ShellSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
