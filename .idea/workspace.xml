@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mergesort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mergesort/MergeSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/countingsort/CountingSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/countingsort/CountingSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,7 @@
     "Application.BogoSortTest.executor": "Run",
     "Application.BubbleSortTest.executor": "Run",
     "Application.CheckMinHeapExample.executor": "Run",
+    "Application.CountingSortTest.executor": "Run",
     "Application.DoublyLinkedListTest.executor": "Run",
     "Application.HashMapInJava.executor": "Run",
     "Application.HashTableTest.executor": "Run",
@@ -93,7 +95,20 @@
       <recent name="hashtable.withlinearprobing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSortTest">
+  <component name="RunManager" selected="Application.CountingSortTest">
+    <configuration name="CountingSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="countingsort.CountingSortTest" />
+      <module name="algorithms-and-data-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="countingsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InsertionSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="insertionsort.InsertionSortTest" />
       <module name="algorithms-and-data-structures" />
@@ -133,19 +148,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selectionsort.SelectionSortTest" />
-      <module name="algorithms-and-data-structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selectionsort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShellSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="shellsort.ShellSortTest" />
       <module name="algorithms-and-data-structures" />
@@ -161,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountingSortTest" />
         <item itemvalue="Application.MergeSortTest" />
         <item itemvalue="Application.QuickSortTest" />
         <item itemvalue="Application.ShellSortTest" />
         <item itemvalue="Application.InsertionSortTest" />
-        <item itemvalue="Application.SelectionSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +199,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/quicksort/QuickSort.java</url>
           <line>49</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/countingsort/CountingSort.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
