@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/quicksort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/quicksort/QuickSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mergesort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mergesort/MergeSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     "Application.IntegerReversion.executor": "Run",
     "Application.LinkedListTest.executor": "Run",
     "Application.MaxItemStackTest.executor": "Run",
+    "Application.MergeSortTest.executor": "Run",
     "Application.PalindromeProblem.executor": "Run",
     "Application.PriorityQueueExample.executor": "Run",
     "Application.QueueInJava.executor": "Run",
@@ -93,13 +93,13 @@
       <recent name="hashtable.withlinearprobing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSortTest">
-    <configuration name="BubbleSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bubblesort.BubbleSortTest" />
+  <component name="RunManager" selected="Application.MergeSortTest">
+    <configuration name="InsertionSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="insertionsort.InsertionSortTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bubblesort.*" />
+          <option name="PATTERN" value="insertionsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="insertionsort.InsertionSortTest" />
+    <configuration name="MergeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mergesort.MergeSortTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="insertionsort.*" />
+          <option name="PATTERN" value="mergesort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortTest" />
         <item itemvalue="Application.QuickSortTest" />
         <item itemvalue="Application.ShellSortTest" />
         <item itemvalue="Application.InsertionSortTest" />
         <item itemvalue="Application.SelectionSortTest" />
-        <item itemvalue="Application.BubbleSortTest" />
       </list>
     </recent_temporary>
   </component>
