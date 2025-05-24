@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/radixsort/RadixSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/radixsort/RadixSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timsort/InsertionSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/timsort/TimSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,19 +91,33 @@
       <recent name="queue" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="timsort" />
       <recent name="radixsort" />
       <recent name="countingsort" />
       <recent name="insertionsort" />
       <recent name="hashtable.withlinearprobing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RadixSortTest">
+  <component name="RunManager" selected="Application.InsertionSortTest">
     <configuration name="CountingSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="countingsort.CountingSortTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="countingsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="timsort.InsertionSortTest" />
+      <module name="algorithms-and-data-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="timsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,26 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShellSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="shellsort.ShellSortTest" />
-      <module name="algorithms-and-data-structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="shellsort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSortTest" />
         <item itemvalue="Application.RadixSortTest" />
         <item itemvalue="Application.CountingSortTest" />
         <item itemvalue="Application.MergeSortTest" />
         <item itemvalue="Application.QuickSortTest" />
-        <item itemvalue="Application.ShellSortTest" />
       </list>
     </recent_temporary>
   </component>
