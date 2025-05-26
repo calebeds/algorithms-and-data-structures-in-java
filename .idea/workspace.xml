@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/search/knuthmorrispratt/KnuthMorrisPratt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search/knuthmorrispratt/KnuthMorrisPrattTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search/zalgorithm/ZAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/search/zalgorithm/ZAlgorithmTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +74,7 @@
     "Application.StackInJava.executor": "Run",
     "Application.StackTest.executor": "Debug",
     "Application.TwoSumProblemTest.executor": "Run",
+    "Application.ZAlgorithmTest.executor": "Run",
     "Application.hashtable.generichashmap.HashTableTest.executor": "Run",
     "Application.hashtable.twosumproblem.TwoSumProblemTest.executor": "Run",
     "Application.hashtable.withlinearprobing.HashTableTest.executor": "Run",
@@ -102,26 +103,13 @@
       <recent name="insertionsort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KnuthMorrisPrattTest">
+  <component name="RunManager" selected="Application.ZAlgorithmTest">
     <configuration name="BruteForceSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.bruteforcesearch.BruteForceSearchTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="search.bruteforcesearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="timsort.InsertionSortTest" />
-      <module name="algorithms-and-data-structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="timsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,13 +156,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZAlgorithmTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.zalgorithm.ZAlgorithmTest" />
+      <module name="algorithms-and-data-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.zalgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZAlgorithmTest" />
         <item itemvalue="Application.KnuthMorrisPrattTest" />
         <item itemvalue="Application.RabinKarpTest" />
         <item itemvalue="Application.BruteForceSearchTest" />
         <item itemvalue="Application.QuickSortWithStackTest" />
-        <item itemvalue="Application.InsertionSortTest" />
       </list>
     </recent_temporary>
   </component>
