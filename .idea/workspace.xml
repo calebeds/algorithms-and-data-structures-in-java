@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/search/zalgorithm/ZAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search/zalgorithm/ZAlgorithmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cache/lrucache/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cache/lrucache/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cache/lrucache/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cache/lrucache/LRUCacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cache/lrucache/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +58,7 @@
     "Application.InsertionSortTest.executor": "Run",
     "Application.IntegerReversion.executor": "Run",
     "Application.KnuthMorrisPrattTest.executor": "Run",
+    "Application.LRUCacheTest.executor": "Run",
     "Application.LinkedListTest.executor": "Run",
     "Application.MaxItemStackTest.executor": "Run",
     "Application.MergeSortTest.executor": "Run",
@@ -103,7 +108,7 @@
       <recent name="insertionsort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZAlgorithmTest">
+  <component name="RunManager" selected="Application.LRUCacheTest">
     <configuration name="BruteForceSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.bruteforcesearch.BruteForceSearchTest" />
       <module name="algorithms-and-data-structures" />
@@ -130,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSortWithStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quicksort.QuickSortWithStackTest" />
+    <configuration name="LRUCacheTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cache.lrucache.LRUCacheTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="quicksort.*" />
+          <option name="PATTERN" value="cache.lrucache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LRUCacheTest" />
         <item itemvalue="Application.ZAlgorithmTest" />
         <item itemvalue="Application.KnuthMorrisPrattTest" />
         <item itemvalue="Application.RabinKarpTest" />
         <item itemvalue="Application.BruteForceSearchTest" />
-        <item itemvalue="Application.QuickSortWithStackTest" />
       </list>
     </recent_temporary>
   </component>
