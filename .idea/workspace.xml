@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d022c566-dbc3-4643-907c-3d1b97fee3de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cache/lrucache/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cache/lrucache/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cache/lrucache/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cache/lrucache/LRUCacheTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cache/lrucache/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fenwicktree/FenwickTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fenwicktree/FenwickTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +48,7 @@
     "Application.CheckMinHeapExample.executor": "Run",
     "Application.CountingSortTest.executor": "Run",
     "Application.DoublyLinkedListTest.executor": "Run",
+    "Application.FenwickTreeTest.executor": "Run",
     "Application.HashMapInJava.executor": "Run",
     "Application.HashTableTest.executor": "Run",
     "Application.HeapTest.executor": "Run",
@@ -108,13 +105,13 @@
       <recent name="insertionsort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LRUCacheTest">
-    <configuration name="BruteForceSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.bruteforcesearch.BruteForceSearchTest" />
+  <component name="RunManager" selected="Application.FenwickTreeTest">
+    <configuration name="FenwickTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fenwicktree.FenwickTreeTest" />
       <module name="algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.bruteforcesearch.*" />
+          <option name="PATTERN" value="fenwicktree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FenwickTreeTest" />
         <item itemvalue="Application.LRUCacheTest" />
         <item itemvalue="Application.ZAlgorithmTest" />
         <item itemvalue="Application.KnuthMorrisPrattTest" />
         <item itemvalue="Application.RabinKarpTest" />
-        <item itemvalue="Application.BruteForceSearchTest" />
       </list>
     </recent_temporary>
   </component>
